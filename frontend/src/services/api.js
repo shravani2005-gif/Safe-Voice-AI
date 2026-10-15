@@ -3,7 +3,8 @@
  * Interacts with Flask backend API endpoints.
  */
 
-const API_BASE = '/api';
+const RAW_URL = import.meta.env.VITE_API_BASE_URL || '';
+const API_BASE = RAW_URL ? `${RAW_URL.replace(/\/+$/, '')}/api` : '/api';
 
 export async function getHealth() {
   const res = await fetch(`${API_BASE}/health`);
