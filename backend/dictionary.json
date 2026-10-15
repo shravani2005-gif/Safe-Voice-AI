@@ -1,0 +1,16 @@
+{
+  "terms": [
+    "bad comment",
+    "bugger",
+    "dumb",
+    "fool",
+    "hate speech",
+    "idiot",
+    "nonsense",
+    "rubbish",
+    "shut up",
+    "stupid",
+    "toxic"
+  ],
+  "description": "Configurable bad-word dictionary for SafeVoice AI"
+}
